@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         self.view.addSubview(button4)
         
         
-        var button5: SDevBootstrapButton = SDevBootstrapButton(frame: CGRectMake(100, 290, 200, 50), type: Type.Success, style: Style.V3)
+        var button5: SDevBootstrapButton = SDevBootstrapButton(frame: CGRectMake(100, 290, 200, 50), type: Type.Success, style: Style.V2)
         button5.setTitle("Success Button", forState: UIControlState.Normal)
         button5.addOcticon("cloud-download", beforeTitle: true)
         self.view.addSubview(button5)

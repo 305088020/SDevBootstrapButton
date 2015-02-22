@@ -352,7 +352,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         var roundedRectanglePath: UIBezierPath = UIBezierPath(roundedRect: CGRectMake(0.5, 0.5, rect.size.width - CGFloat(1.0), rect.size.height - CGFloat(1.0)), cornerRadius: CGFloat(self.getButtonCornerRadius()))
         CGContextSaveGState(context)
 
-        
+        roundedRectanglePath.addClip()
         
         var colorSpace: CGColorSpaceRef = CGColorSpaceCreateDeviceRGB()
         var topColor: UIColor = (self.shouldShowDisabled && self.enabled) ? self.color.darkenColorWithValue(0.12) : self.color.lightenColorWithValue(0.12)
