@@ -13,6 +13,10 @@
 		E857B72C1A9A52DD00C11632 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E857B72B1A9A52DD00C11632 /* Images.xcassets */; };
 		E857B72F1A9A52DD00C11632 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E857B72D1A9A52DD00C11632 /* LaunchScreen.xib */; };
 		E857B73B1A9A52DD00C11632 /* SDevBootstrapButtonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E857B73A1A9A52DD00C11632 /* SDevBootstrapButtonDemoTests.swift */; };
+		E857B7521A9A533A00C11632 /* NSString+FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E857B74D1A9A533A00C11632 /* NSString+FontAwesome.swift */; };
+		E857B7531A9A533A00C11632 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E857B74F1A9A533A00C11632 /* FontAwesome.ttf */; };
+		E857B7541A9A533A00C11632 /* SDevBootstrapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E857B7501A9A533A00C11632 /* SDevBootstrapButton.swift */; };
+		E857B7551A9A533A00C11632 /* UIColor+SDevBootstrapButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E857B7511A9A533A00C11632 /* UIColor+SDevBootstrapButtonColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		E857B7341A9A52DD00C11632 /* SDevBootstrapButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDevBootstrapButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E857B7391A9A52DD00C11632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E857B73A1A9A52DD00C11632 /* SDevBootstrapButtonDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDevBootstrapButtonDemoTests.swift; sourceTree = "<group>"; };
+		E857B74D1A9A533A00C11632 /* NSString+FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+FontAwesome.swift"; sourceTree = "<group>"; };
+		E857B74F1A9A533A00C11632 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		E857B7501A9A533A00C11632 /* SDevBootstrapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDevBootstrapButton.swift; sourceTree = "<group>"; };
+		E857B7511A9A533A00C11632 /* UIColor+SDevBootstrapButtonColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SDevBootstrapButtonColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		E857B7211A9A52DD00C11632 /* SDevBootstrapButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E857B74C1A9A533A00C11632 /* SDevBootstrapButton */,
 				E857B7241A9A52DD00C11632 /* AppDelegate.swift */,
 				E857B7261A9A52DD00C11632 /* ViewController.swift */,
 				E857B7281A9A52DD00C11632 /* Main.storyboard */,
@@ -110,6 +119,25 @@
 				E857B7391A9A52DD00C11632 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E857B74C1A9A533A00C11632 /* SDevBootstrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				E857B74D1A9A533A00C11632 /* NSString+FontAwesome.swift */,
+				E857B74E1A9A533A00C11632 /* Resources */,
+				E857B7501A9A533A00C11632 /* SDevBootstrapButton.swift */,
+				E857B7511A9A533A00C11632 /* UIColor+SDevBootstrapButtonColor.swift */,
+			);
+			path = SDevBootstrapButton;
+			sourceTree = SOURCE_ROOT;
+		};
+		E857B74E1A9A533A00C11632 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E857B74F1A9A533A00C11632 /* FontAwesome.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +223,7 @@
 				E857B72A1A9A52DD00C11632 /* Main.storyboard in Resources */,
 				E857B72F1A9A52DD00C11632 /* LaunchScreen.xib in Resources */,
 				E857B72C1A9A52DD00C11632 /* Images.xcassets in Resources */,
+				E857B7531A9A533A00C11632 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E857B7541A9A533A00C11632 /* SDevBootstrapButton.swift in Sources */,
+				E857B7551A9A533A00C11632 /* UIColor+SDevBootstrapButtonColor.swift in Sources */,
 				E857B7271A9A52DD00C11632 /* ViewController.swift in Sources */,
 				E857B7251A9A52DD00C11632 /* AppDelegate.swift in Sources */,
+				E857B7521A9A533A00C11632 /* NSString+FontAwesome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
