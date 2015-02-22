@@ -48,5 +48,4 @@ enum Type {
 var button: SDevBootstrapButton = SDevBootstrapButton(frame: CGRectMake(100, 50, 200, 50), type: Type.Twitter, style: Style.V3)
 button.setTitle("Follow Me !", forState: UIControlState.Normal)
 button.addAwesomeIcon("twitter", beforeTitle: true)
-self.view.addSubview(button)
 ````
