@@ -30,22 +30,24 @@ class ViewController: UIViewController {
         
         var button3: SDevBootstrapButton = SDevBootstrapButton(frame: CGRectMake(100, 170, 200, 50), type: Type.Warning, style: Style.V3)
         button3.setTitle("Warning Button", forState: UIControlState.Normal)
+        button3.addIconicIcon("people", beforeTitle: true)
         self.view.addSubview(button3)
         
         
         var button4: SDevBootstrapButton = SDevBootstrapButton(frame: CGRectMake(100, 230, 200, 50), type: Type.Danger, style: Style.V3)
         button4.setTitle("Danger Button", forState: UIControlState.Normal)
+        button4.addIonIcon("ios-eye", beforeTitle: true)
         self.view.addSubview(button4)
         
         
         var button5: SDevBootstrapButton = SDevBootstrapButton(frame: CGRectMake(100, 290, 200, 50), type: Type.Success, style: Style.V3)
         button5.setTitle("Success Button", forState: UIControlState.Normal)
-        button5.addAwesomeIcon("paw", beforeTitle: true)
+        button5.addOcticon("cloud-download", beforeTitle: true)
         self.view.addSubview(button5)
         
         stButton?.setStyle(Style.V3)
         stButton?.setType(Type.Primary)
-        stButton?.addAwesomeIcon("taxi", beforeTitle: true)
+        stButton?.addOcticon("repo-forked", beforeTitle: true)
     }
 
     override func didReceiveMemoryWarning() {

@@ -120,6 +120,50 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         self.setTitle(title, forState: UIControlState.Normal)
     }
     
+    func addIonIcon(icon: String, beforeTitle: Bool) {
+        var iconString: NSString = String.fontIonIconWithName(icon)
+        self.titleLabel?.font = UIFont.fontIonOfSize(self.titleLabel!.font.pointSize)
+        var title: NSString = NSString(format: "%@", iconString)
+        if (self.titleLabel?.text != nil){
+            if(beforeTitle) {
+                title = title.stringByAppendingFormat(" %@", self.titleLabel!.text!)
+            } else {
+                title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
+            }
+        }
+        self.setTitle(title, forState: UIControlState.Normal)
+    }
+    
+    
+    func addIconicIcon(icon: String, beforeTitle: Bool) {
+        var iconString: NSString = String.fontIconicIconWithName(icon)
+        self.titleLabel?.font = UIFont.fontIconicOfSize(self.titleLabel!.font.pointSize)
+        var title: NSString = NSString(format: "%@", iconString)
+        if (self.titleLabel?.text != nil){
+            if(beforeTitle) {
+                title = title.stringByAppendingFormat(" %@", self.titleLabel!.text!)
+            } else {
+                title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
+            }
+        }
+        self.setTitle(title, forState: UIControlState.Normal)
+    }
+    
+    
+    func addOcticon(icon: String, beforeTitle: Bool) {
+        var iconString: NSString = String.fontOcticonWithName(icon)
+        self.titleLabel?.font = UIFont.fontOcticonOfSize(self.titleLabel!.font.pointSize)
+        var title: NSString = NSString(format: "%@", iconString)
+        if (self.titleLabel?.text != nil){
+            if(beforeTitle) {
+                title = title.stringByAppendingFormat(" %@", self.titleLabel!.text!)
+            } else {
+                title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
+            }
+        }
+        self.setTitle(title, forState: UIControlState.Normal)
+    }
+    
     func setColor(newColor: UIColor) {
         self.color = newColor
         if newColor.isLightColor() {
