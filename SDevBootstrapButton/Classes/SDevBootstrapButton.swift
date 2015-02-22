@@ -45,7 +45,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
     var shouldShowDisabled: Bool
     var buttonStyle: Style
     var buttonIcon: NSString!
-    var bType: Type!
+    var bType: Type
     var fSize: CGFloat!
     var buttonCornerRadius: NSNumber!
 
@@ -76,11 +76,9 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         super.init(frame: frame)
         setType(type)
         setTextAttributesForStyle(style)
-        setColor(color)
         self.titleLabel?.font = UIFont.fontAwesomeOfSize(fontSize)
         self.titleLabel?.textAlignment = NSTextAlignment.Center
         self.setTitle(String.fontAwesomeIconWithName(icon), forState: UIControlState.Normal)
-        
     }
     
 
@@ -91,11 +89,13 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         super.init(frame: frame)
         setType(type)
         setTextAttributesForStyle(style)
-        setColor(color)
     }
     
     required init(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        self.shouldShowDisabled = true
+        self.buttonStyle = Style.V3
+        self.bType = Type.Primary
+        super.init(coder: aDecoder)
     }
     
     func getButtonCornerRadius() -> NSNumber {
@@ -159,7 +159,6 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
     
     func setStyle(style: Style){
         buttonStyle = style
-        setColor(color)
     }
     
     func setType(type: Type) {

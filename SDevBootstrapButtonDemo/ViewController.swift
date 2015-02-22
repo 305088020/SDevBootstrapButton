@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var stButton: SDevBootstrapButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -40,6 +42,10 @@ class ViewController: UIViewController {
         button5.setTitle("Success Button", forState: UIControlState.Normal)
         button5.addAwesomeIcon("paw", beforeTitle: true)
         self.view.addSubview(button5)
+        
+        stButton?.setStyle(Style.V3)
+        stButton?.setType(Type.Primary)
+        stButton?.addAwesomeIcon("taxi", beforeTitle: true)
     }
 
     override func didReceiveMemoryWarning() {
