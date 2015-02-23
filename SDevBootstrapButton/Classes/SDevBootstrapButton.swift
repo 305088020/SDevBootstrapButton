@@ -256,10 +256,10 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
             color = UIColor.facebookColor()
             break
         case .Purple:
-            color = UIColor.purpleBButtonColor()
+            color = UIColor.purpleButtonColor()
             break
         case .Gray:
-            color = UIColor.grayBButtonColor()
+            color = UIColor.grayButtonColor()
             break
         case .Default:
             color = UIColor.defaultColorV2()
@@ -299,10 +299,10 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
             color = UIColor.facebookColor()
             break
         case .Purple:
-            color = UIColor.purpleBButtonColor()
+            color = UIColor.purpleButtonColor()
             break
         case .Gray:
-            color = UIColor.grayBButtonColor()
+            color = UIColor.grayButtonColor()
             break
         case .Default:
             color = UIColor.defaultColorV3()
@@ -333,10 +333,10 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         var context: CGContextRef = UIGraphicsGetCurrentContext()
         switch(self.buttonStyle) {
         case .V2:
-            drawBButtonV2InRect(rect, context: context)
+            drawV2InRect(rect, context: context)
             break
         case .V3:
-            drawBButtonV3InRect(rect, context: context)
+            drawV3InRect(rect, context: context)
             break
         default:
             
@@ -344,7 +344,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         }
     }
     
-    func drawBButtonV2InRect(rect: CGRect, context: CGContextRef){
+    func drawV2InRect(rect: CGRect, context: CGContextRef){
         var border: UIColor = self.color.darkenColorWithValue(0.06)
         var shadow: UIColor = self.color.lightenColorWithValue(0.50)
         var shadowOffset: CGSize = CGSizeMake(0.0, 1.0)
@@ -391,7 +391,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         roundedRectanglePath.stroke()
     }
     
-    func drawBButtonV3InRect(rect: CGRect, context: CGContextRef) {
+    func drawV3InRect(rect: CGRect, context: CGContextRef) {
         CGContextSaveGState(context)
         
         var fill: UIColor = self.highlighted ? self.color : self.color.darkenColorWithValue(0.06)

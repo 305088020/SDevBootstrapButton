@@ -73,11 +73,11 @@ public extension UIColor {
         return UIColor(red: 0.23, green:0.35, blue:0.60, alpha:1.00)
     }
     
-    class func purpleBButtonColor() -> UIColor {
+    class func purpleButtonColor() -> UIColor {
         return UIColor(red: 0.45, green:0.30, blue:0.75, alpha:1.00)
     }
     
-    class func grayBButtonColor() -> UIColor {
+    class func grayButtonColor() -> UIColor {
         return UIColor(red: 0.60, green:0.60, blue:0.60, alpha:1.00)
     }
     
