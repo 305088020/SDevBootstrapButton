@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         
         stButton?.setStyle(Style.V3)
         stButton?.setType(Type.Primary)
-        stButton?.addOcticon("repo-forked", beforeTitle: true)
+        stButton?.addOcticon("terminal", beforeTitle: true)
     }
 
     override func didReceiveMemoryWarning() {

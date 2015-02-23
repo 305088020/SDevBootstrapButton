@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8104D351A9A778F008415D0 /* NSString+FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8104D2A1A9A778F008415D0 /* NSString+FontAwesome.swift */; };
-		E8104D361A9A778F008415D0 /* NSString+Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8104D2B1A9A778F008415D0 /* NSString+Iconic.swift */; };
-		E8104D371A9A778F008415D0 /* NSString+IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8104D2C1A9A778F008415D0 /* NSString+IonIcons.swift */; };
-		E8104D381A9A778F008415D0 /* NSString+Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8104D2D1A9A778F008415D0 /* NSString+Octicon.swift */; };
-		E8104D391A9A778F008415D0 /* SDevBootstrapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8104D2E1A9A778F008415D0 /* SDevBootstrapButton.swift */; };
-		E8104D3A1A9A778F008415D0 /* UIColor+SDevBootstrapButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8104D2F1A9A778F008415D0 /* UIColor+SDevBootstrapButtonColor.swift */; };
-		E8104D3B1A9A778F008415D0 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8104D311A9A778F008415D0 /* FontAwesome.ttf */; };
-		E8104D3C1A9A778F008415D0 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8104D321A9A778F008415D0 /* ionicons.ttf */; };
-		E8104D3D1A9A778F008415D0 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8104D331A9A778F008415D0 /* octicons.ttf */; };
-		E8104D3E1A9A778F008415D0 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8104D341A9A778F008415D0 /* open-iconic.ttf */; };
+		E8346A331A9B424800F65B83 /* SDevBootstrapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8346A281A9B424800F65B83 /* SDevBootstrapButton.swift */; };
+		E8346A341A9B424800F65B83 /* String+FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8346A291A9B424800F65B83 /* String+FontAwesome.swift */; };
+		E8346A351A9B424800F65B83 /* String+Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8346A2A1A9B424800F65B83 /* String+Iconic.swift */; };
+		E8346A361A9B424800F65B83 /* String+IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8346A2B1A9B424800F65B83 /* String+IonIcons.swift */; };
+		E8346A371A9B424800F65B83 /* String+Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8346A2C1A9B424800F65B83 /* String+Octicon.swift */; };
+		E8346A381A9B424800F65B83 /* UIColor+SDevBootstrapButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8346A2D1A9B424800F65B83 /* UIColor+SDevBootstrapButtonColor.swift */; };
+		E8346A391A9B424800F65B83 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8346A2F1A9B424800F65B83 /* FontAwesome.ttf */; };
+		E8346A3A1A9B424800F65B83 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8346A301A9B424800F65B83 /* ionicons.ttf */; };
+		E8346A3B1A9B424800F65B83 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8346A311A9B424800F65B83 /* octicons.ttf */; };
+		E8346A3C1A9B424800F65B83 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8346A321A9B424800F65B83 /* open-iconic.ttf */; };
 		E857B7251A9A52DD00C11632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E857B7241A9A52DD00C11632 /* AppDelegate.swift */; };
 		E857B7271A9A52DD00C11632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E857B7261A9A52DD00C11632 /* ViewController.swift */; };
 		E857B72A1A9A52DD00C11632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E857B7281A9A52DD00C11632 /* Main.storyboard */; };
@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E8104D2A1A9A778F008415D0 /* NSString+FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+FontAwesome.swift"; sourceTree = "<group>"; };
-		E8104D2B1A9A778F008415D0 /* NSString+Iconic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Iconic.swift"; sourceTree = "<group>"; };
-		E8104D2C1A9A778F008415D0 /* NSString+IonIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+IonIcons.swift"; sourceTree = "<group>"; };
-		E8104D2D1A9A778F008415D0 /* NSString+Octicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Octicon.swift"; sourceTree = "<group>"; };
-		E8104D2E1A9A778F008415D0 /* SDevBootstrapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDevBootstrapButton.swift; sourceTree = "<group>"; };
-		E8104D2F1A9A778F008415D0 /* UIColor+SDevBootstrapButtonColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SDevBootstrapButtonColor.swift"; sourceTree = "<group>"; };
-		E8104D311A9A778F008415D0 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
-		E8104D321A9A778F008415D0 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
-		E8104D331A9A778F008415D0 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
-		E8104D341A9A778F008415D0 /* open-iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-iconic.ttf"; sourceTree = "<group>"; };
+		E8346A281A9B424800F65B83 /* SDevBootstrapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDevBootstrapButton.swift; sourceTree = "<group>"; };
+		E8346A291A9B424800F65B83 /* String+FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FontAwesome.swift"; sourceTree = "<group>"; };
+		E8346A2A1A9B424800F65B83 /* String+Iconic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Iconic.swift"; sourceTree = "<group>"; };
+		E8346A2B1A9B424800F65B83 /* String+IonIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+IonIcons.swift"; sourceTree = "<group>"; };
+		E8346A2C1A9B424800F65B83 /* String+Octicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Octicon.swift"; sourceTree = "<group>"; };
+		E8346A2D1A9B424800F65B83 /* UIColor+SDevBootstrapButtonColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SDevBootstrapButtonColor.swift"; sourceTree = "<group>"; };
+		E8346A2F1A9B424800F65B83 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		E8346A301A9B424800F65B83 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		E8346A311A9B424800F65B83 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
+		E8346A321A9B424800F65B83 /* open-iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-iconic.ttf"; sourceTree = "<group>"; };
 		E857B71F1A9A52DD00C11632 /* SDevBootstrapButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDevBootstrapButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E857B7231A9A52DD00C11632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E857B7241A9A52DD00C11632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,35 +76,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8104D281A9A778F008415D0 /* SDevBootstrapButton */ = {
+		E8346A261A9B424800F65B83 /* SDevBootstrapButton */ = {
 			isa = PBXGroup;
 			children = (
-				E8104D291A9A778F008415D0 /* Classes */,
-				E8104D301A9A778F008415D0 /* Resources */,
+				E8346A271A9B424800F65B83 /* Classes */,
+				E8346A2E1A9B424800F65B83 /* Resources */,
 			);
 			path = SDevBootstrapButton;
 			sourceTree = SOURCE_ROOT;
 		};
-		E8104D291A9A778F008415D0 /* Classes */ = {
+		E8346A271A9B424800F65B83 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E8104D2A1A9A778F008415D0 /* NSString+FontAwesome.swift */,
-				E8104D2B1A9A778F008415D0 /* NSString+Iconic.swift */,
-				E8104D2C1A9A778F008415D0 /* NSString+IonIcons.swift */,
-				E8104D2D1A9A778F008415D0 /* NSString+Octicon.swift */,
-				E8104D2E1A9A778F008415D0 /* SDevBootstrapButton.swift */,
-				E8104D2F1A9A778F008415D0 /* UIColor+SDevBootstrapButtonColor.swift */,
+				E8346A281A9B424800F65B83 /* SDevBootstrapButton.swift */,
+				E8346A291A9B424800F65B83 /* String+FontAwesome.swift */,
+				E8346A2A1A9B424800F65B83 /* String+Iconic.swift */,
+				E8346A2B1A9B424800F65B83 /* String+IonIcons.swift */,
+				E8346A2C1A9B424800F65B83 /* String+Octicon.swift */,
+				E8346A2D1A9B424800F65B83 /* UIColor+SDevBootstrapButtonColor.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		E8104D301A9A778F008415D0 /* Resources */ = {
+		E8346A2E1A9B424800F65B83 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E8104D311A9A778F008415D0 /* FontAwesome.ttf */,
-				E8104D321A9A778F008415D0 /* ionicons.ttf */,
-				E8104D331A9A778F008415D0 /* octicons.ttf */,
-				E8104D341A9A778F008415D0 /* open-iconic.ttf */,
+				E8346A2F1A9B424800F65B83 /* FontAwesome.ttf */,
+				E8346A301A9B424800F65B83 /* ionicons.ttf */,
+				E8346A311A9B424800F65B83 /* octicons.ttf */,
+				E8346A321A9B424800F65B83 /* open-iconic.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 		E857B7211A9A52DD00C11632 /* SDevBootstrapButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E8104D281A9A778F008415D0 /* SDevBootstrapButton */,
+				E8346A261A9B424800F65B83 /* SDevBootstrapButton */,
 				E857B7241A9A52DD00C11632 /* AppDelegate.swift */,
 				E857B7261A9A52DD00C11632 /* ViewController.swift */,
 				E857B7281A9A52DD00C11632 /* Main.storyboard */,
@@ -247,12 +247,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E857B72A1A9A52DD00C11632 /* Main.storyboard in Resources */,
-				E8104D3C1A9A778F008415D0 /* ionicons.ttf in Resources */,
+				E8346A3A1A9B424800F65B83 /* ionicons.ttf in Resources */,
 				E857B72F1A9A52DD00C11632 /* LaunchScreen.xib in Resources */,
 				E857B72C1A9A52DD00C11632 /* Images.xcassets in Resources */,
-				E8104D3D1A9A778F008415D0 /* octicons.ttf in Resources */,
-				E8104D3E1A9A778F008415D0 /* open-iconic.ttf in Resources */,
-				E8104D3B1A9A778F008415D0 /* FontAwesome.ttf in Resources */,
+				E8346A3B1A9B424800F65B83 /* octicons.ttf in Resources */,
+				E8346A3C1A9B424800F65B83 /* open-iconic.ttf in Resources */,
+				E8346A391A9B424800F65B83 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,14 +270,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8104D361A9A778F008415D0 /* NSString+Iconic.swift in Sources */,
+				E8346A331A9B424800F65B83 /* SDevBootstrapButton.swift in Sources */,
+				E8346A371A9B424800F65B83 /* String+Octicon.swift in Sources */,
+				E8346A351A9B424800F65B83 /* String+Iconic.swift in Sources */,
+				E8346A361A9B424800F65B83 /* String+IonIcons.swift in Sources */,
+				E8346A381A9B424800F65B83 /* UIColor+SDevBootstrapButtonColor.swift in Sources */,
+				E8346A341A9B424800F65B83 /* String+FontAwesome.swift in Sources */,
 				E857B7271A9A52DD00C11632 /* ViewController.swift in Sources */,
 				E857B7251A9A52DD00C11632 /* AppDelegate.swift in Sources */,
-				E8104D371A9A778F008415D0 /* NSString+IonIcons.swift in Sources */,
-				E8104D3A1A9A778F008415D0 /* UIColor+SDevBootstrapButtonColor.swift in Sources */,
-				E8104D351A9A778F008415D0 /* NSString+FontAwesome.swift in Sources */,
-				E8104D381A9A778F008415D0 /* NSString+Octicon.swift in Sources */,
-				E8104D391A9A778F008415D0 /* SDevBootstrapButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
