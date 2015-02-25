@@ -82,7 +82,7 @@ public extension UIColor {
     }
     
     
-    func desaturatedColorToPercentSaturation(float: CGFloat) -> UIColor {
+    func desaturatedColorToPercentSaturation(value: CGFloat) -> UIColor {
 
         var h:CGFloat = 0.0
         var s:CGFloat = 0.0

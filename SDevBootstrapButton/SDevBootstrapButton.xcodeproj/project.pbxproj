@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8D353A41A9E5A400097EB8E /* SDevBootstrapButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D353A31A9E5A400097EB8E /* SDevBootstrapButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D353AA1A9E5A400097EB8E /* SDevBootstrapButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D3539E1A9E5A400097EB8E /* SDevBootstrapButton.framework */; };
+		E8D353B11A9E5A400097EB8E /* SDevBootstrapButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D353B01A9E5A400097EB8E /* SDevBootstrapButtonTests.swift */; };
+		E8D353C51A9E5A5A0097EB8E /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8D353BB1A9E5A5A0097EB8E /* FontAwesome.ttf */; };
+		E8D353C61A9E5A5A0097EB8E /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8D353BC1A9E5A5A0097EB8E /* ionicons.ttf */; };
+		E8D353C71A9E5A5A0097EB8E /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8D353BD1A9E5A5A0097EB8E /* octicons.ttf */; };
+		E8D353C81A9E5A5A0097EB8E /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8D353BE1A9E5A5A0097EB8E /* open-iconic.ttf */; };
+		E8D353C91A9E5A5A0097EB8E /* SDevBootstrapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D353BF1A9E5A5A0097EB8E /* SDevBootstrapButton.swift */; };
+		E8D353CA1A9E5A5A0097EB8E /* String+FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D353C01A9E5A5A0097EB8E /* String+FontAwesome.swift */; };
+		E8D353CB1A9E5A5A0097EB8E /* String+Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D353C11A9E5A5A0097EB8E /* String+Iconic.swift */; };
+		E8D353CC1A9E5A5A0097EB8E /* String+IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D353C21A9E5A5A0097EB8E /* String+IonIcons.swift */; };
+		E8D353CD1A9E5A5A0097EB8E /* String+Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D353C31A9E5A5A0097EB8E /* String+Octicon.swift */; };
+		E8D353CE1A9E5A5A0097EB8E /* UIColor+SDevBootstrapButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D353C41A9E5A5A0097EB8E /* UIColor+SDevBootstrapButtonColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8D353AB1A9E5A400097EB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8D353951A9E5A400097EB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D3539D1A9E5A400097EB8E;
+			remoteInfo = SDevBootstrapButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8D3539E1A9E5A400097EB8E /* SDevBootstrapButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDevBootstrapButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D353A21A9E5A400097EB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D353A31A9E5A400097EB8E /* SDevBootstrapButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDevBootstrapButton.h; sourceTree = "<group>"; };
+		E8D353A91A9E5A400097EB8E /* SDevBootstrapButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDevBootstrapButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D353AF1A9E5A400097EB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D353B01A9E5A400097EB8E /* SDevBootstrapButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDevBootstrapButtonTests.swift; sourceTree = "<group>"; };
+		E8D353BB1A9E5A5A0097EB8E /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		E8D353BC1A9E5A5A0097EB8E /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		E8D353BD1A9E5A5A0097EB8E /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
+		E8D353BE1A9E5A5A0097EB8E /* open-iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-iconic.ttf"; sourceTree = "<group>"; };
+		E8D353BF1A9E5A5A0097EB8E /* SDevBootstrapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDevBootstrapButton.swift; sourceTree = "<group>"; };
+		E8D353C01A9E5A5A0097EB8E /* String+FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FontAwesome.swift"; sourceTree = "<group>"; };
+		E8D353C11A9E5A5A0097EB8E /* String+Iconic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Iconic.swift"; sourceTree = "<group>"; };
+		E8D353C21A9E5A5A0097EB8E /* String+IonIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+IonIcons.swift"; sourceTree = "<group>"; };
+		E8D353C31A9E5A5A0097EB8E /* String+Octicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Octicon.swift"; sourceTree = "<group>"; };
+		E8D353C41A9E5A5A0097EB8E /* UIColor+SDevBootstrapButtonColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SDevBootstrapButtonColor.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D3539A1A9E5A400097EB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D353A61A9E5A400097EB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D353AA1A9E5A400097EB8E /* SDevBootstrapButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8D353941A9E5A400097EB8E = {
+			isa = PBXGroup;
+			children = (
+				E8D353A01A9E5A400097EB8E /* SDevBootstrapButton */,
+				E8D353AD1A9E5A400097EB8E /* SDevBootstrapButtonTests */,
+				E8D3539F1A9E5A400097EB8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D3539F1A9E5A400097EB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D3539E1A9E5A400097EB8E /* SDevBootstrapButton.framework */,
+				E8D353A91A9E5A400097EB8E /* SDevBootstrapButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D353A01A9E5A400097EB8E /* SDevBootstrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				E8D353BA1A9E5A5A0097EB8E /* Resources */,
+				E8D353BF1A9E5A5A0097EB8E /* SDevBootstrapButton.swift */,
+				E8D353C01A9E5A5A0097EB8E /* String+FontAwesome.swift */,
+				E8D353C11A9E5A5A0097EB8E /* String+Iconic.swift */,
+				E8D353C21A9E5A5A0097EB8E /* String+IonIcons.swift */,
+				E8D353C31A9E5A5A0097EB8E /* String+Octicon.swift */,
+				E8D353C41A9E5A5A0097EB8E /* UIColor+SDevBootstrapButtonColor.swift */,
+				E8D353A31A9E5A400097EB8E /* SDevBootstrapButton.h */,
+				E8D353A11A9E5A400097EB8E /* Supporting Files */,
+			);
+			path = SDevBootstrapButton;
+			sourceTree = "<group>";
+		};
+		E8D353A11A9E5A400097EB8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D353A21A9E5A400097EB8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D353AD1A9E5A400097EB8E /* SDevBootstrapButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8D353B01A9E5A400097EB8E /* SDevBootstrapButtonTests.swift */,
+				E8D353AE1A9E5A400097EB8E /* Supporting Files */,
+			);
+			path = SDevBootstrapButtonTests;
+			sourceTree = "<group>";
+		};
+		E8D353AE1A9E5A400097EB8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D353AF1A9E5A400097EB8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D353BA1A9E5A5A0097EB8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8D353BB1A9E5A5A0097EB8E /* FontAwesome.ttf */,
+				E8D353BC1A9E5A5A0097EB8E /* ionicons.ttf */,
+				E8D353BD1A9E5A5A0097EB8E /* octicons.ttf */,
+				E8D353BE1A9E5A5A0097EB8E /* open-iconic.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E8D3539B1A9E5A400097EB8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D353A41A9E5A400097EB8E /* SDevBootstrapButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E8D3539D1A9E5A400097EB8E /* SDevBootstrapButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D353B41A9E5A400097EB8E /* Build configuration list for PBXNativeTarget "SDevBootstrapButton" */;
+			buildPhases = (
+				E8D353991A9E5A400097EB8E /* Sources */,
+				E8D3539A1A9E5A400097EB8E /* Frameworks */,
+				E8D3539B1A9E5A400097EB8E /* Headers */,
+				E8D3539C1A9E5A400097EB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDevBootstrapButton;
+			productName = SDevBootstrapButton;
+			productReference = E8D3539E1A9E5A400097EB8E /* SDevBootstrapButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8D353A81A9E5A400097EB8E /* SDevBootstrapButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D353B71A9E5A400097EB8E /* Build configuration list for PBXNativeTarget "SDevBootstrapButtonTests" */;
+			buildPhases = (
+				E8D353A51A9E5A400097EB8E /* Sources */,
+				E8D353A61A9E5A400097EB8E /* Frameworks */,
+				E8D353A71A9E5A400097EB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8D353AC1A9E5A400097EB8E /* PBXTargetDependency */,
+			);
+			name = SDevBootstrapButtonTests;
+			productName = SDevBootstrapButtonTests;
+			productReference = E8D353A91A9E5A400097EB8E /* SDevBootstrapButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D353951A9E5A400097EB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sedat Ciftci";
+				TargetAttributes = {
+					E8D3539D1A9E5A400097EB8E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E8D353A81A9E5A400097EB8E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E8D353981A9E5A400097EB8E /* Build configuration list for PBXProject "SDevBootstrapButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8D353941A9E5A400097EB8E;
+			productRefGroup = E8D3539F1A9E5A400097EB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D3539D1A9E5A400097EB8E /* SDevBootstrapButton */,
+				E8D353A81A9E5A400097EB8E /* SDevBootstrapButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D3539C1A9E5A400097EB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D353C61A9E5A5A0097EB8E /* ionicons.ttf in Resources */,
+				E8D353C71A9E5A5A0097EB8E /* octicons.ttf in Resources */,
+				E8D353C51A9E5A5A0097EB8E /* FontAwesome.ttf in Resources */,
+				E8D353C81A9E5A5A0097EB8E /* open-iconic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D353A71A9E5A400097EB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D353991A9E5A400097EB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D353CE1A9E5A5A0097EB8E /* UIColor+SDevBootstrapButtonColor.swift in Sources */,
+				E8D353CC1A9E5A5A0097EB8E /* String+IonIcons.swift in Sources */,
+				E8D353CB1A9E5A5A0097EB8E /* String+Iconic.swift in Sources */,
+				E8D353C91A9E5A5A0097EB8E /* SDevBootstrapButton.swift in Sources */,
+				E8D353CA1A9E5A5A0097EB8E /* String+FontAwesome.swift in Sources */,
+				E8D353CD1A9E5A5A0097EB8E /* String+Octicon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D353A51A9E5A400097EB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D353B11A9E5A400097EB8E /* SDevBootstrapButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8D353AC1A9E5A400097EB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8D3539D1A9E5A400097EB8E /* SDevBootstrapButton */;
+			targetProxy = E8D353AB1A9E5A400097EB8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E8D353B21A9E5A400097EB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8D353B31A9E5A400097EB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8D353B51A9E5A400097EB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SDevBootstrapButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8D353B61A9E5A400097EB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SDevBootstrapButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E8D353B81A9E5A400097EB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDevBootstrapButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8D353B91A9E5A400097EB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDevBootstrapButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D353981A9E5A400097EB8E /* Build configuration list for PBXProject "SDevBootstrapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D353B21A9E5A400097EB8E /* Debug */,
+				E8D353B31A9E5A400097EB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D353B41A9E5A400097EB8E /* Build configuration list for PBXNativeTarget "SDevBootstrapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D353B51A9E5A400097EB8E /* Debug */,
+				E8D353B61A9E5A400097EB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8D353B71A9E5A400097EB8E /* Build configuration list for PBXNativeTarget "SDevBootstrapButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D353B81A9E5A400097EB8E /* Debug */,
+				E8D353B91A9E5A400097EB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D353951A9E5A400097EB8E /* Project object */;
+}

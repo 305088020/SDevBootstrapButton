@@ -1,15 +1,15 @@
 //
-//  SDevBootstrapButtonDemoTests.swift
-//  SDevBootstrapButtonDemoTests
+//  SDevBootstrapButtonTests.swift
+//  SDevBootstrapButtonTests
 //
-//  Created by Sedat Ciftci on 22/02/15.
+//  Created by Sedat Ciftci on 25/02/15.
 //  Copyright (c) 2015 Sedat Ciftci. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class SDevBootstrapButtonDemoTests: XCTestCase {
+class SDevBootstrapButtonTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

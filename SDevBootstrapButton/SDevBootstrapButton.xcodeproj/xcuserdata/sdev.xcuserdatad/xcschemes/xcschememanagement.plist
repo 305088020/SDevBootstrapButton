@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SDevBootstrapButtonDemo.xcscheme</key>
+		<key>SDevBootstrapButton.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E857B71E1A9A52DD00C11632</key>
+		<key>E8D3539D1A9E5A400097EB8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E857B7331A9A52DD00C11632</key>
+		<key>E8D353A81A9E5A400097EB8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E857B71E1A9A52DD00C11632"
-               BuildableName = "SDevBootstrapButtonDemo.app"
-               BlueprintName = "SDevBootstrapButtonDemo"
-               ReferencedContainer = "container:SDevBootstrapButtonDemo.xcodeproj">
+               BlueprintIdentifier = "E8D3539D1A9E5A400097EB8E"
+               BuildableName = "SDevBootstrapButton.framework"
+               BlueprintName = "SDevBootstrapButton"
+               ReferencedContainer = "container:SDevBootstrapButton.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E857B7331A9A52DD00C11632"
-               BuildableName = "SDevBootstrapButtonDemoTests.xctest"
-               BlueprintName = "SDevBootstrapButtonDemoTests"
-               ReferencedContainer = "container:SDevBootstrapButtonDemo.xcodeproj">
+               BlueprintIdentifier = "E8D353A81A9E5A400097EB8E"
+               BuildableName = "SDevBootstrapButtonTests.xctest"
+               BlueprintName = "SDevBootstrapButtonTests"
+               ReferencedContainer = "container:SDevBootstrapButton.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E857B7331A9A52DD00C11632"
-               BuildableName = "SDevBootstrapButtonDemoTests.xctest"
-               BlueprintName = "SDevBootstrapButtonDemoTests"
-               ReferencedContainer = "container:SDevBootstrapButtonDemo.xcodeproj">
+               BlueprintIdentifier = "E8D353A81A9E5A400097EB8E"
+               BuildableName = "SDevBootstrapButtonTests.xctest"
+               BlueprintName = "SDevBootstrapButtonTests"
+               ReferencedContainer = "container:SDevBootstrapButton.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E857B71E1A9A52DD00C11632"
-            BuildableName = "SDevBootstrapButtonDemo.app"
-            BlueprintName = "SDevBootstrapButtonDemo"
-            ReferencedContainer = "container:SDevBootstrapButtonDemo.xcodeproj">
+            BlueprintIdentifier = "E8D3539D1A9E5A400097EB8E"
+            BuildableName = "SDevBootstrapButton.framework"
+            BlueprintName = "SDevBootstrapButton"
+            ReferencedContainer = "container:SDevBootstrapButton.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,15 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E857B71E1A9A52DD00C11632"
-            BuildableName = "SDevBootstrapButtonDemo.app"
-            BlueprintName = "SDevBootstrapButtonDemo"
-            ReferencedContainer = "container:SDevBootstrapButtonDemo.xcodeproj">
+            BlueprintIdentifier = "E8D3539D1A9E5A400097EB8E"
+            BuildableName = "SDevBootstrapButton.framework"
+            BlueprintName = "SDevBootstrapButton"
+            ReferencedContainer = "container:SDevBootstrapButton.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,15 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E857B71E1A9A52DD00C11632"
-            BuildableName = "SDevBootstrapButtonDemo.app"
-            BlueprintName = "SDevBootstrapButtonDemo"
-            ReferencedContainer = "container:SDevBootstrapButtonDemo.xcodeproj">
+            BlueprintIdentifier = "E8D3539D1A9E5A400097EB8E"
+            BuildableName = "SDevBootstrapButton.framework"
+            BlueprintName = "SDevBootstrapButton"
+            ReferencedContainer = "container:SDevBootstrapButton.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
