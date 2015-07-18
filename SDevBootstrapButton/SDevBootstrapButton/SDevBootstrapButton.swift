@@ -117,7 +117,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
                 title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
             }
         }
-        self.setTitle(title, forState: UIControlState.Normal)
+        self.setTitle(title as String, forState: UIControlState.Normal)
     }
     
     func addIonIcon(icon: String, beforeTitle: Bool) {
@@ -131,7 +131,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
                 title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
             }
         }
-        self.setTitle(title, forState: UIControlState.Normal)
+        self.setTitle(title as String, forState: UIControlState.Normal)
     }
     
     
@@ -146,7 +146,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
                 title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
             }
         }
-        self.setTitle(title, forState: UIControlState.Normal)
+        self.setTitle(title as String, forState: UIControlState.Normal)
     }
     
     
@@ -161,10 +161,10 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
                 title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
             }
         }
-        self.setTitle(title, forState: UIControlState.Normal)
+        self.setTitle(title as String, forState: UIControlState.Normal)
     }
     
-    func setColor(newColor: UIColor) {
+    func setButtonColor(newColor: UIColor) {
         self.color = newColor
         if newColor.isLightColor() {
             self.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
@@ -184,7 +184,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
     }
     
     
-    func setShouldShowDisabled(show: Bool) {
+    func setButtonShouldShowDisabled(show: Bool) {
         self.shouldShowDisabled = show
         if show {
             if(self.color .isLightColor()) {
@@ -206,7 +206,7 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
     }
     
     func setType(type: Type) {
-        setColor(SDevBootstrapButton.colorForButtonType(type, style: buttonStyle))
+        setButtonColor(SDevBootstrapButton.colorForButtonType(type, style: buttonStyle))
     }
     
     

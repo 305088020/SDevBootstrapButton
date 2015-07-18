@@ -94,7 +94,7 @@ public extension UIColor {
     }
     
     func isLightColor() -> Bool {
-        var totalComponents: UInt = CGColorGetNumberOfComponents(self.CGColor)
+        var totalComponents: Int = CGColorGetNumberOfComponents(self.CGColor)
         var isGreyscale: Bool = (totalComponents == 2) ? true : false
         var components = CGColorGetComponents(self.CGColor)
         var sum: CGFloat
@@ -107,7 +107,7 @@ public extension UIColor {
     }
     
     func lightenColorWithValue(value: CGFloat) -> UIColor {
-        var totalComponents: UInt = CGColorGetNumberOfComponents(self.CGColor)
+        var totalComponents: Int = CGColorGetNumberOfComponents(self.CGColor)
         var isGreyscale: Bool = (totalComponents == 2) ? true : false
         
         var oldComponents = CGColorGetComponents(self.CGColor)
@@ -129,13 +129,13 @@ public extension UIColor {
         }
         var colorSpace: CGColorSpaceRef = CGColorSpaceCreateDeviceRGB()
         var newColor: CGColorRef = CGColorCreate(colorSpace, newComponents)
-        var retColor: UIColor = UIColor(CGColor: newColor)
+        var retColor: UIColor = UIColor(CGColor: newColor)!
         
         return retColor
     }
     
     func darkenColorWithValue(value: CGFloat) -> UIColor {
-        var totalComponents: UInt = CGColorGetNumberOfComponents(self.CGColor)
+        var totalComponents: Int = CGColorGetNumberOfComponents(self.CGColor)
         var isGreyscale: Bool = (totalComponents == 2) ? true : false
         
         var oldComponents = CGColorGetComponents(self.CGColor)
@@ -156,7 +156,7 @@ public extension UIColor {
         }
         var colorSpace: CGColorSpaceRef = CGColorSpaceCreateDeviceRGB()
         var newColor: CGColorRef = CGColorCreate(colorSpace, newComponents)
-        var retColor: UIColor = UIColor(CGColor: newColor)
+        var retColor: UIColor = UIColor(CGColor: newColor)!
         
         return retColor
     }
