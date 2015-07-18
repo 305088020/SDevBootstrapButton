@@ -129,7 +129,7 @@ public extension UIColor {
         }
         var colorSpace: CGColorSpaceRef = CGColorSpaceCreateDeviceRGB()
         var newColor: CGColorRef = CGColorCreate(colorSpace, newComponents)
-        var retColor: UIColor = UIColor(CGColor: newColor)!
+        var retColor: UIColor = UIColor(CGColor: newColor)
         
         return retColor
     }
@@ -156,7 +156,7 @@ public extension UIColor {
         }
         var colorSpace: CGColorSpaceRef = CGColorSpaceCreateDeviceRGB()
         var newColor: CGColorRef = CGColorCreate(colorSpace, newComponents)
-        var retColor: UIColor = UIColor(CGColor: newColor)!
+        var retColor: UIColor = UIColor(CGColor: newColor)
         
         return retColor
     }

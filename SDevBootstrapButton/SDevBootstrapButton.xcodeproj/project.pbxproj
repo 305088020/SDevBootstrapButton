@@ -196,6 +196,7 @@
 		E8D353951A9E5A400097EB8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Sedat Ciftci";
 				TargetAttributes = {
@@ -446,6 +447,7 @@
 				E8D353B61A9E5A400097EB8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8D353B71A9E5A400097EB8E /* Build configuration list for PBXNativeTarget "SDevBootstrapButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +456,7 @@
 				E8D353B91A9E5A400097EB8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

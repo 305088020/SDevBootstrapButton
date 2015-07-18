@@ -29,7 +29,7 @@ enum Type {
         Gray
 }
 
-class SDevBootstrapButton: UIButton, UIAppearanceContainer {
+class SDevBootstrapButton: UIButton {
     
     override var highlighted: Bool {
         didSet {
@@ -120,6 +120,21 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         self.setTitle(title as String, forState: UIControlState.Normal)
     }
     
+    func addAwesomeIconWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
+        var iconString: NSString = String.fontAwesomeIconWithName(icon)
+        self.titleLabel?.font = UIFont.fontAwesomeOfSize(fontSize)
+        var title: NSString = NSString(format: "%@", iconString)
+        if (self.titleLabel?.text != nil){
+            if(beforeTitle) {
+                title = title.stringByAppendingFormat(" %@", self.titleLabel!.text!)
+            } else {
+                title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
+            }
+        }
+        self.setTitle(title as String, forState: UIControlState.Normal)
+    }
+    
+    
     func addIonIcon(icon: String, beforeTitle: Bool) {
         var iconString: NSString = String.fontIonIconWithName(icon)
         self.titleLabel?.font = UIFont.fontIonOfSize(self.titleLabel!.font.pointSize)
@@ -135,9 +150,42 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
     }
     
     
+    
+    func addIonIconWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
+        var iconString: NSString = String.fontIonIconWithName(icon)
+        self.titleLabel?.font = UIFont.fontIonOfSize(fontSize)
+        var title: NSString = NSString(format: "%@", iconString)
+        if (self.titleLabel?.text != nil){
+            if(beforeTitle) {
+                title = title.stringByAppendingFormat(" %@", self.titleLabel!.text!)
+            } else {
+                title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
+            }
+        }
+        self.setTitle(title as String, forState: UIControlState.Normal)
+    }
+    
+    
+    
+    
     func addIconicIcon(icon: String, beforeTitle: Bool) {
         var iconString: NSString = String.fontIconicIconWithName(icon)
         self.titleLabel?.font = UIFont.fontIconicOfSize(self.titleLabel!.font.pointSize)
+        var title: NSString = NSString(format: "%@", iconString)
+        if (self.titleLabel?.text != nil){
+            if(beforeTitle) {
+                title = title.stringByAppendingFormat(" %@", self.titleLabel!.text!)
+            } else {
+                title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
+            }
+        }
+        self.setTitle(title as String, forState: UIControlState.Normal)
+    }
+    
+    
+    func addIconicIconWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
+        var iconString: NSString = String.fontIconicIconWithName(icon)
+        self.titleLabel?.font = UIFont.fontIconicOfSize(fontSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
             if(beforeTitle) {
@@ -163,6 +211,24 @@ class SDevBootstrapButton: UIButton, UIAppearanceContainer {
         }
         self.setTitle(title as String, forState: UIControlState.Normal)
     }
+    
+    
+    func addOcticonWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
+        var iconString: NSString = String.fontOcticonWithName(icon)
+        self.titleLabel?.font = UIFont.fontOcticonOfSize(fontSize)
+        var title: NSString = NSString(format: "%@", iconString)
+        if (self.titleLabel?.text != nil){
+            if(beforeTitle) {
+                title = title.stringByAppendingFormat(" %@", self.titleLabel!.text!)
+            } else {
+                title = NSString(format: "%@ %@", self.titleLabel!.text!, iconString)
+            }
+        }
+        self.setTitle(title as String, forState: UIControlState.Normal)
+    }
+    
+    
+    
     
     func setButtonColor(newColor: UIColor) {
         self.color = newColor
