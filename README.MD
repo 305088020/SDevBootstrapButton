@@ -5,7 +5,7 @@ SDevBootstrapButton
 
 [BButon (Objective-C)](https://github.com/jessesquires/BButton)
 
-# ![Screenshot](https://raw.githubusercontent.com/0x73/SDevBootstrapButton/master/Screenshots/screenshot0.png)
+# ![Screenshot](https://raw.githubusercontent.com/0x73/SDevBootstrapButton/Swift-2.0/Screenshots/screenshot0.png)
 
 
 ## Installation
