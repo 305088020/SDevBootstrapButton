@@ -60,8 +60,6 @@ class SDevBootstrapButton: UIButton {
             self.titleLabel?.shadowOffset = CGSizeMake(0.0, 0.0)
             self.titleLabel?.font = UIFont.systemFontOfSize(17.0)
             break
-        default:
-            break
             
         }
     }
@@ -107,7 +105,7 @@ class SDevBootstrapButton: UIButton {
     
     
     func addAwesomeIcon(icon: String, beforeTitle: Bool) {
-        var iconString: NSString = String.fontAwesomeIconWithName(icon)
+        let iconString: NSString = String.fontAwesomeIconWithName(icon)
         self.titleLabel?.font = UIFont.fontAwesomeOfSize(self.titleLabel!.font.pointSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -121,7 +119,7 @@ class SDevBootstrapButton: UIButton {
     }
     
     func addAwesomeIconWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
-        var iconString: NSString = String.fontAwesomeIconWithName(icon)
+        let iconString: NSString = String.fontAwesomeIconWithName(icon)
         self.titleLabel?.font = UIFont.fontAwesomeOfSize(fontSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -136,7 +134,7 @@ class SDevBootstrapButton: UIButton {
     
     
     func addIonIcon(icon: String, beforeTitle: Bool) {
-        var iconString: NSString = String.fontIonIconWithName(icon)
+        let iconString: NSString = String.fontIonIconWithName(icon)
         self.titleLabel?.font = UIFont.fontIonOfSize(self.titleLabel!.font.pointSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -152,7 +150,7 @@ class SDevBootstrapButton: UIButton {
     
     
     func addIonIconWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
-        var iconString: NSString = String.fontIonIconWithName(icon)
+        let iconString: NSString = String.fontIonIconWithName(icon)
         self.titleLabel?.font = UIFont.fontIonOfSize(fontSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -169,7 +167,7 @@ class SDevBootstrapButton: UIButton {
     
     
     func addIconicIcon(icon: String, beforeTitle: Bool) {
-        var iconString: NSString = String.fontIconicIconWithName(icon)
+        let iconString: NSString = String.fontIconicIconWithName(icon)
         self.titleLabel?.font = UIFont.fontIconicOfSize(self.titleLabel!.font.pointSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -184,7 +182,7 @@ class SDevBootstrapButton: UIButton {
     
     
     func addIconicIconWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
-        var iconString: NSString = String.fontIconicIconWithName(icon)
+        let iconString: NSString = String.fontIconicIconWithName(icon)
         self.titleLabel?.font = UIFont.fontIconicOfSize(fontSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -199,7 +197,7 @@ class SDevBootstrapButton: UIButton {
     
     
     func addOcticon(icon: String, beforeTitle: Bool) {
-        var iconString: NSString = String.fontOcticonWithName(icon)
+        let iconString: NSString = String.fontOcticonWithName(icon)
         self.titleLabel?.font = UIFont.fontOcticonOfSize(self.titleLabel!.font.pointSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -214,7 +212,7 @@ class SDevBootstrapButton: UIButton {
     
     
     func addOcticonWithFontSize(icon: String, beforeTitle: Bool, fontSize: CGFloat) {
-        var iconString: NSString = String.fontOcticonWithName(icon)
+        let iconString: NSString = String.fontOcticonWithName(icon)
         self.titleLabel?.font = UIFont.fontOcticonOfSize(fontSize)
         var title: NSString = NSString(format: "%@", iconString)
         if (self.titleLabel?.text != nil){
@@ -396,7 +394,7 @@ class SDevBootstrapButton: UIButton {
     
     override func drawRect(rect: CGRect) {
         super.drawRect(rect)
-        var context: CGContextRef = UIGraphicsGetCurrentContext()
+        let context: CGContextRef = UIGraphicsGetCurrentContext()
         switch(self.buttonStyle) {
         case .V2:
             drawV2InRect(rect, context: context)
@@ -411,20 +409,20 @@ class SDevBootstrapButton: UIButton {
     }
     
     func drawV2InRect(rect: CGRect, context: CGContextRef){
-        var border: UIColor = self.color.darkenColorWithValue(0.06)
-        var shadow: UIColor = self.color.lightenColorWithValue(0.50)
-        var shadowOffset: CGSize = CGSizeMake(0.0, 1.0)
-        var shadowBlurRadius: CGFloat = 2.0
-        var roundedRectanglePath: UIBezierPath = UIBezierPath(roundedRect: CGRectMake(0.5, 0.5, rect.size.width - CGFloat(1.0), rect.size.height - CGFloat(1.0)), cornerRadius: CGFloat(self.getButtonCornerRadius()))
+        let border: UIColor = self.color.darkenColorWithValue(0.06)
+        let shadow: UIColor = self.color.lightenColorWithValue(0.50)
+        let shadowOffset: CGSize = CGSizeMake(0.0, 1.0)
+        let shadowBlurRadius: CGFloat = 2.0
+        let roundedRectanglePath: UIBezierPath = UIBezierPath(roundedRect: CGRectMake(0.5, 0.5, rect.size.width - CGFloat(1.0), rect.size.height - CGFloat(1.0)), cornerRadius: CGFloat(self.getButtonCornerRadius()))
         CGContextSaveGState(context)
 
         roundedRectanglePath.addClip()
         
-        var colorSpace: CGColorSpaceRef = CGColorSpaceCreateDeviceRGB()
-        var topColor: UIColor = (self.shouldShowDisabled && self.enabled) ? self.color.darkenColorWithValue(0.12) : self.color.lightenColorWithValue(0.12)
-        var newGradientColors:CFArray = [topColor.CGColor, self.color.CGColor]
-        var newGradientLocations:[CGFloat] = [0, 1]
-        var gradient: CGGradientRef = CGGradientCreateWithColors(colorSpace, newGradientColors, newGradientLocations)
+        let colorSpace: CGColorSpaceRef = CGColorSpaceCreateDeviceRGB()
+        let topColor: UIColor = (self.shouldShowDisabled && self.enabled) ? self.color.darkenColorWithValue(0.12) : self.color.lightenColorWithValue(0.12)
+        let newGradientColors:CFArray = [topColor.CGColor, self.color.CGColor]
+        let newGradientLocations:[CGFloat] = [0, 1]
+        let gradient: CGGradientRef = CGGradientCreateWithColors(colorSpace, newGradientColors, newGradientLocations)
 
         CGContextDrawLinearGradient(context, gradient, CGPointMake(0.0,  self.highlighted ? rect.size.height - 0.5 : 0.5), CGPointMake(0.0, self.highlighted ? 0.5 : rect.size.height - 0.5), 0)
         CGContextRestoreGState(context)
@@ -433,18 +431,18 @@ class SDevBootstrapButton: UIButton {
             roundedRectangleBorderRect = CGRectOffset(roundedRectangleBorderRect, -shadowOffset.width, -shadowOffset.height)
             roundedRectangleBorderRect = CGRectInset(CGRectUnion(roundedRectangleBorderRect, roundedRectanglePath.bounds), -1.0, -1.0)
             
-            var roundedRectangleNegativePath: UIBezierPath = UIBezierPath(rect: roundedRectangleBorderRect)
+            let roundedRectangleNegativePath: UIBezierPath = UIBezierPath(rect: roundedRectangleBorderRect)
             roundedRectangleNegativePath.appendPath(roundedRectanglePath)
             roundedRectangleNegativePath.usesEvenOddFillRule = true
             
             CGContextSaveGState(context)
             
-            var xOffset: CGFloat = shadowOffset.width + round(roundedRectangleBorderRect.size.width)
-            var yOffset: CGFloat = shadowOffset.height
+            let xOffset: CGFloat = shadowOffset.width + round(roundedRectangleBorderRect.size.width)
+            let yOffset: CGFloat = shadowOffset.height
             
             CGContextSetShadowWithColor(context, CGSizeMake(xOffset + copysign(0.1, xOffset), yOffset + copysign(0.1, yOffset)), shadowBlurRadius, shadow.CGColor)
             roundedRectanglePath.addClip()
-            var transform: CGAffineTransform = CGAffineTransformMakeTranslation(-round(roundedRectangleBorderRect.size.width), 0.0)
+            let transform: CGAffineTransform = CGAffineTransformMakeTranslation(-round(roundedRectangleBorderRect.size.width), 0.0)
             roundedRectangleNegativePath.applyTransform(transform)
             
             UIColor.grayColor().setFill()
@@ -460,13 +458,13 @@ class SDevBootstrapButton: UIButton {
     func drawV3InRect(rect: CGRect, context: CGContextRef) {
         CGContextSaveGState(context)
         
-        var fill: UIColor = self.highlighted ? self.color : self.color.darkenColorWithValue(0.06)
+        let fill: UIColor = self.highlighted ? self.color : self.color.darkenColorWithValue(0.06)
         if !self.enabled {
             fill.desaturatedColorToPercentSaturation(0.60)
         }
         CGContextSetFillColorWithColor(context, fill.CGColor)
         
-        var border: UIColor = self.highlighted ? self.color.darkenColorWithValue(0.06) : self.color.darkenColorWithValue(0.12)
+        let border: UIColor = self.highlighted ? self.color.darkenColorWithValue(0.06) : self.color.darkenColorWithValue(0.12)
         if !self.enabled {
             border.desaturatedColorToPercentSaturation(0.60)
         }
@@ -474,7 +472,7 @@ class SDevBootstrapButton: UIButton {
         CGContextSetStrokeColorWithColor(context, border.CGColor)
         CGContextSetLineWidth(context, 1.0)
         
-        var path: UIBezierPath = UIBezierPath(roundedRect: CGRectMake(0.5, 0.5, rect.size.width - 1.0, rect.size.height - 1.0), cornerRadius: CGFloat(self.getButtonCornerRadius()))
+        let path: UIBezierPath = UIBezierPath(roundedRect: CGRectMake(0.5, 0.5, rect.size.width - 1.0, rect.size.height - 1.0), cornerRadius: CGFloat(self.getButtonCornerRadius()))
         CGContextAddPath(context, path.CGPath);
         CGContextDrawPath(context, kCGPathFillStroke);
         CGContextRestoreGState(context)
